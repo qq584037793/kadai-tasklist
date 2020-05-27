@@ -1,6 +1,5 @@
 class UsersController < ApplicationController
-def index
-end
+
 
 def new
   @user = User.new
@@ -17,8 +16,7 @@ def create
       render :new
     end
 end
-def show
-end
+
 
 end
 private
